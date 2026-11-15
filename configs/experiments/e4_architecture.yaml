@@ -1,0 +1,6 @@
+name: e4_architecture
+description: Повнозв'язна (MLP) проти згорткової архітектури енкодера/декодера.
+base: configs/base.yaml
+grid:
+  model.arch: [mlp, conv]
+seeds: [0, 1, 2]

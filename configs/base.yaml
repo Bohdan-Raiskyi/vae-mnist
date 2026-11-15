@@ -1,0 +1,28 @@
+# Базова конфігурація. Усі експерименти в configs/experiments/ змінюють лише окремі поля.
+seed: 0
+device: auto            # auto | cuda | cpu
+deterministic: true     # детерміновані cuDNN-алгоритми (відтворюваність)
+
+data:
+  val_size: 5000        # валідація відділяється від 60k train (стратифіковано)
+  split_seed: 42        # сід розбиття — фіксований для ВСІХ запусків
+  train_fraction: 1.0   # частка train для експерименту з вибірковою ефективністю
+
+model:
+  type: vae             # ae | vae | cvae
+  arch: conv            # conv | mlp
+  latent_dim: 16
+
+train:
+  batch_size: 128
+  steps: 12000          # ≈ 28 епох при 55k зображень; однаково для всіх запусків
+  lr: 1.0e-3
+  weight_decay: 0.0
+  beta: 1.0             # вага KL (β-VAE); для AE ігнорується
+  kl_warmup_steps: 0    # лінійний розігрів β від 0 (0 = вимкнено)
+  grad_clip: null       # напр. 10.0, якщо будуть розбіжності
+  eval_every: 500       # як часто рахувати val-loss і логувати
+
+eval:
+  n_generated: 10000    # скільки зразків генерувати для метрик
+  ambiguous_threshold: 0.9   # max p класифікатора < порогу → «неоднозначна» цифра

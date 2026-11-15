@@ -1,0 +1,8 @@
+name: e5_data_fraction
+description: >
+  Вибіркова ефективність: навчання на частині train за однакового бюджету кроків.
+  Найкращий чекпоінт обирається за val-loss (захист від перенавчання).
+base: configs/base.yaml
+grid:
+  data.train_fraction: [0.02, 0.05, 0.1, 0.25, 0.5, 1.0]
+seeds: [0, 1, 2]

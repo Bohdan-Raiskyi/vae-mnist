@@ -1,0 +1,8 @@
+name: e2_latent_dim
+description: >
+  Вплив розміру латентного простору на відновлення, KL, якість генерації та
+  кількість активних вимірів (posterior collapse при великих d).
+base: configs/base.yaml
+grid:
+  model.latent_dim: [2, 4, 8, 16, 32, 64]
+seeds: [0, 1, 2]

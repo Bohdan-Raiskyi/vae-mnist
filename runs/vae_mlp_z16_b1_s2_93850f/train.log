@@ -1,0 +1,26 @@
+21:53:40 | INFO | model={'type': 'vae', 'arch': 'mlp', 'latent_dim': 16} params=1,079,600 device=cuda n_train=55000 steps=12000 (~27.9 епох)
+21:53:43 | INFO | step    500 | train loss 173.13 (rec 165.33, kl 7.81) | val loss 136.47 *
+21:53:45 | INFO | step   1000 | train loss 125.90 (rec 111.06, kl 14.84) | val loss 120.07 *
+21:53:48 | INFO | step   1500 | train loss 115.54 (rec 98.63, kl 16.91) | val loss 113.65 *
+21:53:50 | INFO | step   2000 | train loss 111.17 (rec 93.36, kl 17.81) | val loss 110.77 *
+21:53:53 | INFO | step   2500 | train loss 108.60 (rec 90.21, kl 18.39) | val loss 108.79 *
+21:53:55 | INFO | step   3000 | train loss 106.57 (rec 87.64, kl 18.94) | val loss 107.00 *
+21:53:58 | INFO | step   3500 | train loss 105.15 (rec 85.86, kl 19.29) | val loss 105.92 *
+21:54:00 | INFO | step   4000 | train loss 104.09 (rec 84.55, kl 19.54) | val loss 105.12 *
+21:54:02 | INFO | step   4500 | train loss 103.16 (rec 83.48, kl 19.68) | val loss 104.28 *
+21:54:05 | INFO | step   5000 | train loss 102.51 (rec 82.69, kl 19.82) | val loss 103.68 *
+21:54:07 | INFO | step   5500 | train loss 101.99 (rec 82.08, kl 19.91) | val loss 103.35 *
+21:54:10 | INFO | step   6000 | train loss 101.42 (rec 81.43, kl 19.99) | val loss 102.99 *
+21:54:12 | INFO | step   6500 | train loss 100.99 (rec 80.92, kl 20.07) | val loss 102.45 *
+21:54:15 | INFO | step   7000 | train loss 100.66 (rec 80.53, kl 20.13) | val loss 102.28 *
+21:54:17 | INFO | step   7500 | train loss 100.25 (rec 80.07, kl 20.18) | val loss 102.19 *
+21:54:20 | INFO | step   8000 | train loss 100.07 (rec 79.80, kl 20.27) | val loss 101.74 *
+21:54:22 | INFO | step   8500 | train loss 99.67 (rec 79.40, kl 20.27) | val loss 101.51 *
+21:54:24 | INFO | step   9000 | train loss 99.51 (rec 79.18, kl 20.33) | val loss 101.48 *
+21:54:27 | INFO | step   9500 | train loss 99.31 (rec 78.91, kl 20.40) | val loss 101.43 *
+21:54:29 | INFO | step  10000 | train loss 99.10 (rec 78.71, kl 20.39) | val loss 101.28 *
+21:54:32 | INFO | step  10500 | train loss 98.93 (rec 78.51, kl 20.42) | val loss 101.02 *
+21:54:34 | INFO | step  11000 | train loss 98.60 (rec 78.15, kl 20.45) | val loss 101.38 
+21:54:37 | INFO | step  11500 | train loss 98.64 (rec 78.17, kl 20.48) | val loss 101.23 
+21:54:39 | INFO | step  12000 | train loss 98.48 (rec 77.97, kl 20.51) | val loss 100.76 *
+21:54:39 | INFO | Готово за 59 с, найкращий крок 12000, val loss 100.76

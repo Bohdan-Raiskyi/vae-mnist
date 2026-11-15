@@ -1,0 +1,8 @@
+name: e1_ae_vs_vae
+description: >
+  Звичайний автоенкодер проти VAE за однакової архітектури та розміру латенту.
+  Гіпотеза: AE краще відновлює, але генерація з N(0, I) у нього непридатна.
+base: configs/base.yaml
+grid:
+  model.type: [ae, vae]
+seeds: [0, 1, 2]

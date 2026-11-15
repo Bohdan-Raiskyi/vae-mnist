@@ -1,0 +1,6 @@
+{
+  "evaluator_test_acc": 0.9927,
+  "fid_train_vs_test": 4.24161916306457,
+  "real_ambiguous_share_test": 0.0205,
+  "real_mean_conf_test": 0.9926937222480774
+}

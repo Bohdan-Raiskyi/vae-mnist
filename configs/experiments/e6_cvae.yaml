@@ -1,0 +1,10 @@
+name: e6_cvae
+description: >
+  Conditional VAE: генерація заданої цифри. Оцінюємо точність умовної генерації
+  (cond_acc) та якість для різних розмірів латенту.
+base: configs/base.yaml
+fixed:
+  model.type: cvae
+grid:
+  model.latent_dim: [2, 8, 16]
+seeds: [0, 1, 2]

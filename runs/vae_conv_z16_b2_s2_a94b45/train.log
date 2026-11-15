@@ -1,0 +1,26 @@
+21:42:02 | INFO | model={'type': 'vae', 'arch': 'conv', 'latent_dim': 16} params=1,688,289 device=cuda n_train=55000 steps=12000 (~27.9 епох)
+21:42:06 | INFO | step    500 | train loss 192.79 (rec 185.65, kl 3.57) | val loss 151.12 *
+21:42:09 | INFO | step   1000 | train loss 140.10 (rec 120.13, kl 9.98) | val loss 134.72 *
+21:42:13 | INFO | step   1500 | train loss 130.58 (rec 107.25, kl 11.66) | val loss 129.19 *
+21:42:16 | INFO | step   2000 | train loss 126.94 (rec 102.28, kl 12.33) | val loss 126.91 *
+21:42:19 | INFO | step   2500 | train loss 124.71 (rec 98.99, kl 12.86) | val loss 124.58 *
+21:42:22 | INFO | step   3000 | train loss 123.21 (rec 96.94, kl 13.14) | val loss 123.48 *
+21:42:26 | INFO | step   3500 | train loss 122.23 (rec 95.60, kl 13.31) | val loss 123.23 *
+21:42:29 | INFO | step   4000 | train loss 121.52 (rec 94.67, kl 13.42) | val loss 122.38 *
+21:42:33 | INFO | step   4500 | train loss 120.88 (rec 93.86, kl 13.51) | val loss 121.62 *
+21:42:37 | INFO | step   5000 | train loss 120.34 (rec 93.18, kl 13.58) | val loss 121.18 *
+21:42:40 | INFO | step   5500 | train loss 119.94 (rec 92.66, kl 13.64) | val loss 120.91 *
+21:42:43 | INFO | step   6000 | train loss 119.47 (rec 92.09, kl 13.69) | val loss 120.45 *
+21:42:47 | INFO | step   6500 | train loss 119.19 (rec 91.67, kl 13.76) | val loss 120.56 
+21:42:50 | INFO | step   7000 | train loss 118.98 (rec 91.39, kl 13.79) | val loss 120.11 *
+21:42:53 | INFO | step   7500 | train loss 118.58 (rec 90.99, kl 13.79) | val loss 119.96 *
+21:42:57 | INFO | step   8000 | train loss 118.49 (rec 90.77, kl 13.86) | val loss 119.77 *
+21:43:00 | INFO | step   8500 | train loss 118.06 (rec 90.33, kl 13.87) | val loss 119.66 *
+21:43:04 | INFO | step   9000 | train loss 117.97 (rec 90.19, kl 13.89) | val loss 119.49 *
+21:43:07 | INFO | step   9500 | train loss 117.77 (rec 89.95, kl 13.91) | val loss 119.18 *
+21:43:10 | INFO | step  10000 | train loss 117.57 (rec 89.72, kl 13.92) | val loss 119.14 *
+21:43:14 | INFO | step  10500 | train loss 117.46 (rec 89.53, kl 13.97) | val loss 118.94 *
+21:43:17 | INFO | step  11000 | train loss 117.15 (rec 89.17, kl 13.99) | val loss 119.23 
+21:43:20 | INFO | step  11500 | train loss 117.28 (rec 89.28, kl 14.00) | val loss 118.80 *
+21:43:24 | INFO | step  12000 | train loss 117.04 (rec 89.01, kl 14.02) | val loss 118.70 *
+21:43:24 | INFO | Готово за 81 с, найкращий крок 12000, val loss 118.70
